@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_ACCESS_KEY}`;
+const API_ENDPOINT = `https://www.omdbapi.com/?apikey=fba77418`;
 
 const useFetch = (urlParams) => {
   const [isLoading, setIsLoading] = useState(true);
