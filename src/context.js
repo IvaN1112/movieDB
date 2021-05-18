@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import useFetch from './useFetch.js';
 // make sure to use https
-export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_ACCESS_KEY}`;
+export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=fba77418`;
 const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
   const [query, setQuery] = useState('batman');
